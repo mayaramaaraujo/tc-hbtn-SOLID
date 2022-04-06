@@ -1,6 +1,6 @@
 package com.example.demo.banco;
 
-public class Main {
+public class MainPayment {
 
 	public static void main(String[] args) throws Exception {
 	
