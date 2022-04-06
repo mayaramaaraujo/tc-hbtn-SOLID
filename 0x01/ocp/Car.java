@@ -1,5 +1,3 @@
-package com.example.demo.solid;
-
 public class Car extends Vehicle implements IVehicleCar {
 
 	public Car(String color, String year, double engine) {
