@@ -8,4 +8,7 @@ public class NotificationService {
     public void sendEmail(){
 
     }
+    
+    public void notifyCustomer(){
+    }
 }
