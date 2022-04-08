@@ -1,8 +1,10 @@
 public class Functions {
     // Faça somente 1 coisa
     //A
-    public void saveCash(Income income, Expense expense){
+	public void saveIncome(Income income){
         inRepo.save(income);
+    }
+    public void saveExpense(Expense expense){
         outRepo.save(expense);
     }
 
