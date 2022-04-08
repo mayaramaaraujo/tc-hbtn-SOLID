@@ -21,8 +21,8 @@ public class Name {
 
     // Claase possui nomes próprios, funções devem ter verbos
     //A
-    public class TableRepresenter {};
-    public void saveCar(){};
+    public class TableRepresent{};
+    public void car(){}; 
 
     // Uma palavra por conceito
     //A
