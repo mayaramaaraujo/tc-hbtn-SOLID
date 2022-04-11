@@ -4,9 +4,9 @@ class User {
 
     String Descricao;
 
-    final static int IDADEMINIMA = 18;
+    final static int IDADE_MINIMA = 18;
 
 
-    public getAll() {return [];}
+    public getUsers() {return [];}
 
 }
