@@ -10,7 +10,7 @@ import java.util.logging.SimpleFormatter;
 
 public class LoggerInFile {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Logger logger = Logger.getLogger("MyLog");
 
@@ -18,7 +18,7 @@ public class LoggerInFile {
 
         fileHandler = new FileHandler("logs.txt");
 
-        Logger.AddHandler(fileHandler);
+        Logger.addHandler(fileHandler);
 
         simpleFormatter simpleFormatter = new SimpleFormatter();
 
