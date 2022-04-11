@@ -18,7 +18,7 @@ public class LoggerInFile {
 
         fileHandler = new FileHandler("logs.txt");
 
-        Logger.addHandler(fileHandler);
+        logger.addHandler(fileHandler);
 
         simpleFormatter simpleFormatter = new SimpleFormatter();
 
