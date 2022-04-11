@@ -3,7 +3,7 @@ public class Comments {
     // Released under the terms of the GNU General Public License version 2 or later.
 
 
-    
+
     public Owner getTestcaseOwner(Testcase testcase){};
 
 
@@ -19,13 +19,7 @@ public class Comments {
     public void check(){
         return;
     }
-
-
-    // 3. Too much information
-    /*
-     * This class evaluates the overview of testcases which are cancelled from client
-     * the reasons of cancellation play a role in evaluation blablabla
-     */
+    
 
 
     /**
